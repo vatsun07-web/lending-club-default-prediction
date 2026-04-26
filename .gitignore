@@ -1,12 +1,12 @@
 # Large data artifacts
-data/*.parquet
-data/*.db
-data/*.sqlite
-data/*.json
+/data/*.parquet
+/data/*.db
+/data/*.sqlite
+/data/*.json
 
 # Trained model artifacts
-models/*.joblib
-models/*.pkl
+/models/*.joblib
+/models/*.pkl
 
 # Jupyter noise
 .ipynb_checkpoints/
