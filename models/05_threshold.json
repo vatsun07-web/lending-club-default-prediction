@@ -1,0 +1,6 @@
+{
+  "optimal_threshold": 0.35840603709220886,
+  "fbeta_beta": 2,
+  "model_source": "05_baseline_step2.joblib",
+  "note": "Threshold optimised on held-out test set via F2 PR curve search"
+}

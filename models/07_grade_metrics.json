@@ -1,0 +1,58 @@
+[
+  {
+    "Grade":"A",
+    "N":38496,
+    "Default Rate":0.0528626351,
+    "Recall":0.1518427518,
+    "Precision":0.1382550336,
+    "ROC-AUC":0.6710524463
+  },
+  {
+    "Grade":"B",
+    "N":65174,
+    "Default Rate":0.1071746402,
+    "Recall":0.609305655,
+    "Precision":0.1535408925,
+    "ROC-AUC":0.6385969754
+  },
+  {
+    "Grade":"C",
+    "N":81086,
+    "Default Rate":0.1737784574,
+    "Recall":0.9200198708,
+    "Precision":0.1907789207,
+    "ROC-AUC":0.6321872512
+  },
+  {
+    "Grade":"D",
+    "N":46090,
+    "Default Rate":0.2456064222,
+    "Recall":0.9894876325,
+    "Precision":0.2503576218,
+    "ROC-AUC":0.6267755079
+  },
+  {
+    "Grade":"E",
+    "N":23861,
+    "Default Rate":0.3084531243,
+    "Recall":0.9966032609,
+    "Precision":0.3109104781,
+    "ROC-AUC":0.6317035092
+  },
+  {
+    "Grade":"F",
+    "N":8598,
+    "Default Rate":0.3749709235,
+    "Recall":0.9984491315,
+    "Precision":0.3760074758,
+    "ROC-AUC":0.6142549402
+  },
+  {
+    "Grade":"G",
+    "N":1065,
+    "Default Rate":0.4666666667,
+    "Recall":1.0,
+    "Precision":0.4666666667,
+    "ROC-AUC":0.6112945277
+  }
+]

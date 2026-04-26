@@ -1,0 +1,135 @@
+{
+  "loan_terms": {
+    "description": "What the borrower asked for and what was issued",
+    "features": [
+      "loan_amnt",
+      "funded_amnt",
+      "funded_amnt_inv",
+      "term",
+      "int_rate",
+      "installment",
+      "grade",
+      "sub_grade"
+    ]
+  },
+  "borrower_profile": {
+    "description": "Demographics and stated purpose",
+    "features": [
+      "emp_title",
+      "emp_length",
+      "home_ownership",
+      "annual_inc",
+      "verification_status",
+      "purpose",
+      "title",
+      "zip_code",
+      "addr_state",
+      "application_type"
+    ]
+  },
+  "credit_history": {
+    "description": "Bureau data pulled at application \u2014 the heart of creditworthiness",
+    "features": [
+      "dti",
+      "delinq_2yrs",
+      "earliest_cr_line",
+      "fico_range_high",
+      "fico_range_low",
+      "inq_last_6mths",
+      "mths_since_last_delinq",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc",
+      "initial_list_status"
+    ]
+  },
+  "hardship_flags": {
+    "description": "Flags indicating borrower applied for hardship programs",
+    "features": [
+      "hardship_flag",
+      "hardship_type",
+      "hardship_reason",
+      "hardship_status",
+      "deferral_term",
+      "hardship_amount",
+      "hardship_start_date",
+      "hardship_end_date",
+      "payment_plan_start_date",
+      "hardship_dpd",
+      "hardship_loan_status",
+      "orig_projected_additional_accrued_interest"
+    ]
+  },
+  "joint_application": {
+    "description": "Fields specific to joint loan applications",
+    "features": [
+      "annual_inc_joint",
+      "dti_joint",
+      "verification_status_joint",
+      "revol_bal_joint",
+      "sec_app_fico_range_low",
+      "sec_app_fico_range_high",
+      "sec_app_earliest_cr_line",
+      "sec_app_inq_last_6mths",
+      "sec_app_mort_acc",
+      "sec_app_open_acc",
+      "sec_app_revol_util",
+      "sec_app_open_act_il",
+      "sec_app_num_rev_accts",
+      "sec_app_chargeoff_within_12_mths",
+      "sec_app_collections_12_mths_ex_med",
+      "sec_app_mths_since_last_major_derog"
+    ]
+  },
+  "tradeline_counts": {
+    "description": "Number and type of credit accounts \u2014 deeper bureau data",
+    "features": [
+      "num_bc_sats",
+      "num_bc_tl",
+      "num_il_tl",
+      "num_op_rev_tl",
+      "num_rev_accts",
+      "num_rev_tl_bal_gt_0",
+      "num_sats",
+      "num_actv_bc_tl",
+      "num_actv_rev_tl",
+      "total_bal_ex_mort",
+      "total_bc_limit",
+      "total_il_high_credit_limit",
+      "total_rev_hi_lim"
+    ]
+  },
+  "post_origination": {
+    "description": "\u26a0\ufe0f LEAKAGE \u2014 do not use as features",
+    "features": [
+      "recoveries",
+      "collection_recovery_fee",
+      "collection_recovery_fee_year",
+      "total_pymnt",
+      "total_pymnt_inv",
+      "total_rec_prncp",
+      "total_rec_int",
+      "total_rec_late_fee",
+      "last_pymnt_amnt",
+      "last_pymnt_d",
+      "next_pymnt_d",
+      "out_prncp",
+      "out_prncp_inv",
+      "last_credit_pull_d",
+      "last_fico_range_high",
+      "last_fico_range_low",
+      "delinq_2yrs",
+      "mths_since_last_delinq",
+      "mths_since_last_record",
+      "mths_since_recent_inq",
+      "num_tl_30dpd",
+      "num_tl_90g_dpd_24m",
+      "num_tl_op_past_12m",
+      "loan_status",
+      "charged_off_within_12_mths",
+      "debt_settlement_flag"
+    ]
+  }
+}

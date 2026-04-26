@@ -1,0 +1,29 @@
+[
+  {
+    "label": "Step 1 \u2014 No Weighting",
+    "threshold": 0.5,
+    "roc_auc": 0.7095,
+    "pr_auc": 0.3318,
+    "recall": 0.0304,
+    "precision": 0.5408,
+    "f1": 0.0576
+  },
+  {
+    "label": "Step 2 \u2014 Class Weighted",
+    "threshold": 0.5,
+    "roc_auc": 0.7099,
+    "pr_auc": 0.3317,
+    "recall": 0.6602,
+    "precision": 0.2788,
+    "f1": 0.3921
+  },
+  {
+    "label": "Step 3 \u2014 Class Weighted + Optimised Threshold",
+    "threshold": 0.3584,
+    "roc_auc": 0.7099,
+    "pr_auc": 0.3317,
+    "recall": 0.8748,
+    "precision": 0.2248,
+    "f1": 0.3576
+  }
+]
